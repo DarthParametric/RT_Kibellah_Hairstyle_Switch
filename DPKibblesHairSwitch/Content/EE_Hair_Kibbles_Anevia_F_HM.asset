@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2086151842, guid: 017604c229ee99e479fac90eee51887f, type: 3}
+  m_Name: EE_Hair_Kibbles_Anevia_F_HM
+  m_EditorClassIdentifier: 
+  IsExportEnabled: 0
+  CantBeHiddenByDollRoom: 0
+  ShowAboveAllIgnoreLayer: 0
+  m_RequiresDlc:
+    guid: 
+  Layer: 50
+  m_HideBodyParts: 0
+  ShowLowerMaterials: 0
+  isOnlyRightBP: 0
+  SkeletonModifiers: []
+  PrimaryColorsProfile: {fileID: 11400000, guid: 9c620fcd6b8b1074e890f54486bb1516,
+    type: 2}
+  SecondaryColorsProfile: {fileID: 0}
+  BakedTextures: {fileID: 0}
+  PreviewTexture: {fileID: 0}
+  ColorPresets: {fileID: 0}
+  m_PrimaryRamps: []
+  m_SecondaryRamps: []
+  BodyParts:
+  - m_Type: 256
+    RendererPrefab: {fileID: 8047012092318030581, guid: d4a2d81aae722644592bd8dd8691256c,
+      type: 3}
+    Material: {fileID: 2100000, guid: 3cf1a775e3d84bd4b9940164a97c1e7b, type: 2}
+    Textures:
+    - ActiveTexture: {fileID: 2800000, guid: 4ea1615b09912b945af74ceacaf19916, type: 3}
+      DiffuseTexture: {fileID: 2800000, guid: 4ea1615b09912b945af74ceacaf19916, type: 3}
+      NormalTexture: {fileID: 2800000, guid: a7de7d52fb529f94186e1c2894ab3238, type: 3}
+      MaskTexture: {fileID: 2800000, guid: 42272e6a980288d4ea908add08357edd, type: 3}
+      RampShadowTexture: {fileID: 0}
+      DefaultMask1: {fileID: 2800000, guid: c1f305f73780b7445a16d2177ba717df, type: 3}
+      DefaultMask2: {fileID: 0}
+      DiffuseActive: 1
+      NormalActive: 1
+      MaskActive: 1
+      RampShadowActive: 0
+      UseRamp1Mask: 0
+      UseRamp2Mask: 0
+      UseDefaultMask1: 1
+      UseDefaultMask2: 0
+      UseShadowMask: 0
+      Ramps:
+        PrimaryMask: {fileID: 0}
+        PrimaryRamp: {fileID: 0}
+        SecondaryMask: {fileID: 0}
+        SecondaryRamp: {fileID: 0}
+      Channel: 0
+  - m_Type: 128
+    RendererPrefab: {fileID: 0}
+    Material: {fileID: 2100000, guid: 3cf1a775e3d84bd4b9940164a97c1e7b, type: 2}
+    Textures:
+    - ActiveTexture: {fileID: 2800000, guid: 4840d6122a092a848b7d19ddbae7189f, type: 3}
+      DiffuseTexture: {fileID: 2800000, guid: 4840d6122a092a848b7d19ddbae7189f, type: 3}
+      NormalTexture: {fileID: 2800000, guid: fce29de5ca4bae4459f3fdfdb8fc49c7, type: 3}
+      MaskTexture: {fileID: 2800000, guid: a6e0586715ac81e4eb71b0955965c5ce, type: 3}
+      RampShadowTexture: {fileID: 2800000, guid: 9efe2271b8da51245a2d47f05b8d3ddd,
+        type: 3}
+      DefaultMask1: {fileID: 0}
+      DefaultMask2: {fileID: 0}
+      DiffuseActive: 1
+      NormalActive: 1
+      MaskActive: 1
+      RampShadowActive: 1
+      UseRamp1Mask: 0
+      UseRamp2Mask: 0
+      UseDefaultMask1: 0
+      UseDefaultMask2: 0
+      UseShadowMask: 0
+      Ramps:
+        PrimaryMask: {fileID: 0}
+        PrimaryRamp: {fileID: 0}
+        SecondaryMask: {fileID: 0}
+        SecondaryRamp: {fileID: 0}
+      Channel: 0
+  OutfitParts: []
+  ForcedPrimaryIndex: -1
+  ForcedSecondaryIndex: -1
