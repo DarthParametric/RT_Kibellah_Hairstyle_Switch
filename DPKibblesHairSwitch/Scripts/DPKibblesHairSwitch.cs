@@ -26,12 +26,14 @@ namespace DPKibblesHairSwitch
 			"Bob Cut",
 			"Side Kare"
 		};
-		/*
+		
         internal static Dictionary<string, string> EE_IDs_Dict = new()
         {
 			{"EE_Hair_Kibbles_Anevia_F_HM", "bd55c5f2632dc444fa651669be54d67f"},
+			{"EE_Hair_Kibbles_BobCut_F_HM", "a77622c4be5dd0a4db426b9724ee6b9f"},
+			{"EE_Hair_Kibbles_SideKare_F_HM", "e9879af7aa15fbd4d86f19f986fbccbd"},
         };
-		*/
+		
         internal static Dictionary<string, string> Vanilla_EE_IDs_Dict = new()
         {
 			{"EE_Hair02MediumAnevia_F_HM", "d4d1a7937435fe54a889bc3522984205"},
@@ -97,7 +99,7 @@ namespace DPKibblesHairSwitch
 				
 				GUILayout.Space(5);
 				
-				GUILayout.Label("<i><b>N.B.:</b> You must reload or change locations for a hairstyle switch to take effect!</i>", GUILayout.ExpandWidth(false));
+				GUILayout.Label("<i><b>N.B.:</b> You must reload from the main menu or restart the game for a hairstyle switch to take effect!</i>", GUILayout.ExpandWidth(false));
             }
             catch (Exception ex)
             {
@@ -115,12 +117,12 @@ namespace DPKibblesHairSwitch
 
         public static string GetAssetIDFromIndex(int index)
         {
-            return Vanilla_EE_IDs_Dict.Values.ElementAt(index);
+            return EE_IDs_Dict.Values.ElementAt(index);
         }
 		
         public static string GetNameFromIndex(int index)
         {
-            return Vanilla_EE_IDs_Dict.Keys.ElementAt(index);
+            return EE_IDs_Dict.Keys.ElementAt(index);
         }
 
 		private static void EditUnitBundle(object resource, string guid)
@@ -157,7 +159,7 @@ namespace DPKibblesHairSwitch
 						{
 							LogDebug("Hair switching deactivated in settings, restoring vanilla Kibellah bowl cut.");
 							
-							for (int j = 0; j < Vanilla_EE_IDs_Dict.Count; j++)
+							for (int j = 0; j < EE_IDs_Dict.Count; j++)
 							{
 								if (assetid == GetAssetIDFromIndex(j))
 								{
@@ -166,24 +168,6 @@ namespace DPKibblesHairSwitch
 							}
 						}
 					}
-					
-                    // Since Kibellah's hair is black, no need for dedicated ramp indicies since the default is 0 which is the black ramp.
-                    LogDebug($"Number of AssetIDs in m_SavedRampIndices = {rmplist.Count}.");
-
-                    for (int i = rmplist.Count - 1; i >= 0; i--) // Start at the end of the list and loop backwards to quickly catch a newly added entry.
-                    {
-                        var rmpee = rmplist[i].EquipmentEntityLink.AssetId;
-
-                        if (rmpee == GetAssetIDFromIndex(1))
-                        {
-                            LogDebug($"AssetID at m_SavedRampIndices index {i} is {rmpee}. Replacing.");
-
-                            rmplist[i].EquipmentEntityLink.AssetId = GetAssetIDFromIndex(2);
-                            rmplist[i].PrimaryIndex = 17;
-
-                            return;
-                        }
-                    }
                 }
 			}
 			catch (Exception ex)

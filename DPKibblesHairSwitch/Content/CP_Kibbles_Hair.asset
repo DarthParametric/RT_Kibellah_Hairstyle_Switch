@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CP_Kibbles_Hair
   m_EditorClassIdentifier: 
   Ramps:
-  - {fileID: 2800000, guid: 1d4be59cd2bed8d429309ca7eec3f446, type: 3}
+  - {fileID: 2800000, guid: 8c9682de491d5e84380fb639ec1e6510, type: 3}
