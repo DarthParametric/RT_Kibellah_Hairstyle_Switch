@@ -63,19 +63,23 @@ namespace DPKibblesHairSwitch
         {
             try
             {
-                GUILayout.Label("<b>Enable Hair Swapping:</b>", GUILayout.ExpandWidth(false));
+                /*
+				// NOT MUCH POINT FOR THIS, SINCE THERE ARE NO SECONDARY OPTIONS. USER CAN JUST DISABLE/REMOVE THE MOD OUTRIGHT.
+				GUILayout.Label("<b>Enable Hair Swapping:</b>", GUILayout.ExpandWidth(false));
                 GUILayout.BeginHorizontal();
                 settings.ModActive = GUILayout.Toggle(settings.ModActive, "Replace Kibellah's hair");
                 GUILayout.EndHorizontal();
 
                 GUILayout.Space(15);
+				*/
 				
-				var stylecentered = new GUIStyle(GUI.skin.toggle) { alignment = TextAnchor.MiddleLeft };
-				stylecentered.onNormal.textColor = Color.green;
+                var styleleft = new GUIStyle(GUI.skin.toggle) { alignment = TextAnchor.MiddleLeft };
+                styleleft.onNormal.textColor = Color.green;
+                styleleft.hover.textColor = Color.yellow;
 
 				GUILayout.Label("<b>Choose Hair Type:</b>", GUILayout.ExpandWidth(false));
 				GUILayout.BeginHorizontal();
-				settings.SelectedHairType = GUILayout.SelectionGrid(settings.SelectedHairType, HairTypes, 3, stylecentered);
+				settings.SelectedHairType = GUILayout.SelectionGrid(settings.SelectedHairType, HairTypes, 3, styleleft, GUILayout.ExpandWidth(false));
                 GUILayout.EndHorizontal();
 
                 GUILayout.Space(15);
