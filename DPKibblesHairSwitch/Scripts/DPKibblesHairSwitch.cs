@@ -50,13 +50,27 @@ namespace DPKibblesHairSwitch
                 Logger = DPMod.Logger;
                 settings = DPMod.LoadData<Settings>();
 				LogDebug("Loaded mod settings");
-                DPMod.OnGUI += OnGUI;
+                
+				DPMod.OnGUI += OnGUI;
+				DPMod.OnShowGUI += OnShowGUI;
+				DPMod.OnHideGUI += OnHideGUI;
+				
 				DPMod.OnLoadResource += EditUnitBundle;
             }
             catch (Exception ex)
             {
                 Logger.Log($"Caught an exception in EnterPoint: \n{ex}");
             }
+		}
+		
+		public static void OnShowGUI()
+		{
+			
+		}
+		
+		public static void OnHideGUI()
+		{
+			
 		}
 
         public static void OnGUI()
