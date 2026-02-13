@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Manifest:
     UniqueName: DPKibblesHairSwitch
-    Version: 1.0
+    Version: 1.0.1
     DisplayName: Kibellah Hairstyle Switch
     Description: Adds an option to swap the bowl cut for something less terrible
     Author: DarthParametric
