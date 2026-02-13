@@ -44,6 +44,8 @@ You can configure the mod's settings via the Owlcat Mod Manager (Shift-F10 by de
 Your settings will be saved in a `DPKibblesHairSwitch_Data.json` file in the Modifications folder. The settings apply universally across all saves.
 
 ## Known Issues
+The mod works when using a controller, but the in-game settings window is not available for the controller layout.
+
 Some of the options may still look a little brownish in colour rather than black like Kibellah's vanilla hair colour. I may tweak this in future.
 
 ## Acknowledgements
