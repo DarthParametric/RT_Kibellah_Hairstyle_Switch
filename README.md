@@ -39,7 +39,9 @@ If you have other mods, list them in quotes separated by commas. For example:
 You can move individual mods from the ActiveModifications section to the DisabledModifications section if you want to disable them without physically removing them.
 
 ## User Settings
-You can configure the mod's settings via the Owlcat Mod Manager (Shift-F10 by default). Click on the Settings button next to the mod's name in the list, which will open its settings page. Here you can pick which of the available hairstyles you want to swap to. 
+You can configure the mod's settings via the Owlcat Mod Manager (Shift-F10 by default). Click on the Settings button next to the mod's name in the list, which will open its settings page. Alternatively, you can also open the DLC and Mods Manager on the lefthand side of the main menu, switch to the Mods tab, and scroll down until you find the mod's entry. There you can click on the Settings icon to open the mod's settings window directly.
+
+Once the settings page is open, you can pick which of the available hairstyles you want to swap to. Click the Apply button after making your choice to save the setting. Note that if you change the hair while playing you will need to exit to the main menu and reload or restart the game for the change to apply.
 
 Your settings will be saved in a `DPKibblesHairSwitch_Data.json` file in the Modifications folder. The settings apply universally across all saves.
 
