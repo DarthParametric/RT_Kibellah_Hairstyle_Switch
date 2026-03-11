@@ -1,3 +1,6 @@
+using Kingmaker.Localization;
+using Kingmaker.Localization.Enums;
+using Kingmaker.Localization.Shared;
 using Kingmaker.Modding;
 using Kingmaker.ResourceLinks;
 using Kingmaker.View;
@@ -18,14 +21,11 @@ namespace DPKibblesHairSwitch
 		internal static OwlcatModification DPMod;
         internal static string HairModelName;
         internal static string HairAssetID;
+        private static string HairType1;
+        private static string HairType2;
+        private static string HairType3;
+        private static string[] HairTypes;
 		public static Settings settings;
-		
-		public static string[] HairTypes =
-		{
-			"Anevia",
-			"Bob Cut",
-			"Side Kare"
-		};
 		
         internal static Dictionary<string, string> EE_IDs_Dict = new()
         {
@@ -90,8 +90,13 @@ namespace DPKibblesHairSwitch
                 var styleleft = new GUIStyle(GUI.skin.toggle) { alignment = TextAnchor.MiddleLeft };
                 styleleft.onNormal.textColor = Color.green;
                 styleleft.hover.textColor = Color.yellow;
+				
+                HairType1 = ModString("DPKibblesHairSwitch_HairAnevia");
+                HairType2 = ModString("DPKibblesHairSwitch_HairBobCut");
+                HairType3 = ModString("DPKibblesHairSwitch_HairSideKare");
+                HairTypes = new string[] { HairType1, HairType2, HairType3 };
 
-				GUILayout.Label("<b>Choose Hair Type:</b>", GUILayout.ExpandWidth(false));
+				GUILayout.Label(ModString("DPKibblesHairSwitch_Header"), GUILayout.ExpandWidth(false));
 				GUILayout.BeginHorizontal();
 				settings.SelectedHairType = GUILayout.SelectionGrid(settings.SelectedHairType, HairTypes, 3, styleleft, GUILayout.ExpandWidth(false));
                 GUILayout.EndHorizontal();
@@ -109,7 +114,7 @@ namespace DPKibblesHairSwitch
                 GUILayout.Space(15);
 				*/
 
-                if (GUILayout.Button("Apply", GUILayout.ExpandWidth(false)))
+                if (GUILayout.Button(ModString("DPKibblesHairSwitch_Apply"), GUILayout.ExpandWidth(false)))
                 {
                     DPMod.SaveData(settings);
 					LogDebug("Saved mod settings");
@@ -117,7 +122,7 @@ namespace DPKibblesHairSwitch
 				
 				GUILayout.Space(5);
 				
-				GUILayout.Label("<i><b>N.B.:</b> You must reload from the main menu or restart the game for a hairstyle switch to take effect!</i>", GUILayout.ExpandWidth(false));
+				GUILayout.Label(ModString("DPKibblesHairSwitch_Footer"), GUILayout.ExpandWidth(false));
             }
             catch (Exception ex)
             {
@@ -125,7 +130,12 @@ namespace DPKibblesHairSwitch
             }
         }
 
-        public static void LogDebug(string message)
+        private static LocalizedString ModString(string key)
+        {
+            return new() { Key = key };
+        }
+		
+		public static void LogDebug(string message)
         {
             if (settings.DetailedLogging)
             {

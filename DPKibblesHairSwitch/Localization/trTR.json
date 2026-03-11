@@ -1,0 +1,22 @@
+{
+	"strings": {
+		"DPKibblesHairSwitch_Header": {
+			"Text": "<b>Saç Tipini Seçin:</b>"
+		},
+		"DPKibblesHairSwitch_Apply": {
+			"Text": "Uygula"
+		},
+		"DPKibblesHairSwitch_Footer": {
+			"Text": "<i><b>NOT:</b> Saç modeli değişikliğinin etkili olması için ana menüden oyunu yenilemeniz veya oyunu yeniden başlatmanız gerekmektedir!</i>"
+		},
+		"DPKibblesHairSwitch_HairAnevia": {
+			"Text": "Anevia"
+		},
+		"DPKibblesHairSwitch_HairBobCut": {
+			"Text": "Bob Kesim"
+		},
+		"DPKibblesHairSwitch_HairSideKare": {
+			"Text": "Yan Kare"
+		}
+	}
+}

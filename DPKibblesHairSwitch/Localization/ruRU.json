@@ -1,0 +1,22 @@
+{
+	"strings": {
+		"DPKibblesHairSwitch_Header": {
+			"Text": "<b>Выберите тип волос:</b>"
+		},
+		"DPKibblesHairSwitch_Apply": {
+			"Text": "Применять"
+		},
+		"DPKibblesHairSwitch_Footer": {
+			"Text": "<i><b>Примечание:</b> Для того, чтобы смена прически вступила в силу, необходимо перезагрузить игру из главного меню или перезапустить ее!</i>"
+		},
+		"DPKibblesHairSwitch_HairAnevia": {
+			"Text": "Аневия"
+		},
+		"DPKibblesHairSwitch_HairBobCut": {
+			"Text": "Боб Кат"
+		},
+		"DPKibblesHairSwitch_HairSideKare": {
+			"Text": "Сиде Каре"
+		}
+	}
+}

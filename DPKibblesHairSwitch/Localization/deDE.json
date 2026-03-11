@@ -1,0 +1,22 @@
+{
+	"strings": {
+		"DPKibblesHairSwitch_Header": {
+			"Text": "<b>Wählen Sie Ihren Haartyp:</b>"
+		},
+		"DPKibblesHairSwitch_Apply": {
+			"Text": "Anwenden"
+		},
+		"DPKibblesHairSwitch_Footer": {
+			"Text": "<i><b>Hinweis:</b> Sie müssen das Spiel vom Hauptmenü aus neu laden oder neu starten, damit die Änderung der Frisur wirksam wird!</i>"
+		},
+		"DPKibblesHairSwitch_HairAnevia": {
+			"Text": "Anevia"
+		},
+		"DPKibblesHairSwitch_HairBobCut": {
+			"Text": "Bob Cut"
+		},
+		"DPKibblesHairSwitch_HairSideKare": {
+			"Text": "Seite Kare"
+		}
+	}
+}

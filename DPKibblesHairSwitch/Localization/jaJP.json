@@ -1,0 +1,22 @@
+{
+	"strings": {
+		"DPKibblesHairSwitch_Header": {
+			"Text": "<b>髪のタイプを選択して:</b>"
+		},
+		"DPKibblesHairSwitch_Apply": {
+			"Text": "適用する"
+		},
+		"DPKibblesHairSwitch_Footer": {
+			"Text": "<i><b>注:</b> 髪型の変更を有効にするには、メインメニューからリロードするか、ゲームを再起動する必要があります。</i>"
+		},
+		"DPKibblesHairSwitch_HairAnevia": {
+			"Text": "アネビア"
+		},
+		"DPKibblesHairSwitch_HairBobCut": {
+			"Text": "ボブカット"
+		},
+		"DPKibblesHairSwitch_HairSideKare": {
+			"Text": "サイドカレ"
+		}
+	}
+}

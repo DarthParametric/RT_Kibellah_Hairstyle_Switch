@@ -1,0 +1,22 @@
+{
+	"strings": {
+		"DPKibblesHairSwitch_Header": {
+			"Text": "<b>选择发型:</b>"
+		},
+		"DPKibblesHairSwitch_Apply": {
+			"Text": "申请"
+		},
+		"DPKibblesHairSwitch_Footer": {
+			"Text": "<i><b>注意：</b>您必须从主菜单重新加载或重新启动游戏，发型更改才能生效！</i>"
+		},
+		"DPKibblesHairSwitch_HairAnevia": {
+			"Text": "阿内维亚"
+		},
+		"DPKibblesHairSwitch_HairBobCut": {
+			"Text": "鲍勃·卡特"
+		},
+		"DPKibblesHairSwitch_HairSideKare": {
+			"Text": "西德卡雷"
+		}
+	}
+}
