@@ -4,7 +4,7 @@
 			"Text": "<b>Выберите тип волос:</b>"
 		},
 		"DPKibblesHairSwitch_Apply": {
-			"Text": "Применять"
+			"Text": "Применить"
 		},
 		"DPKibblesHairSwitch_Footer": {
 			"Text": "<i><b>Примечание:</b> Для того, чтобы смена прически вступила в силу, необходимо перезагрузить игру из главного меню или перезапустить ее!</i>"
@@ -13,10 +13,10 @@
 			"Text": "Аневия"
 		},
 		"DPKibblesHairSwitch_HairBobCut": {
-			"Text": "Боб Кат"
+			"Text": "Каре"
 		},
 		"DPKibblesHairSwitch_HairSideKare": {
-			"Text": "Сиде Каре"
+			"Text": "Каре набок"
 		}
 	}
 }
