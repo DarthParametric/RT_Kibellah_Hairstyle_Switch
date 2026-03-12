@@ -11,7 +11,7 @@ This is an Owlmod, made using the Unity template supplied by Owlcat. In order to
 
 Use [ModFinder RT](https://www.nexusmods.com/warhammer40kroguetrader/mods/146) to install this mod automagically.
 
-Alternatively, to install the mod manually, first make sure you have run the game at least once. Download the mod from the [releases section](https://github.com/DarthParametric/RT_Kibellah_Hairstyle_Switch/releases/latest) or [Nexus](https://www.nexusmods.com/warhammer40kroguetrader/mods/XXXXXXX) and extract it into:
+Alternatively, to install the mod manually, first make sure you have run the game at least once. Download the mod from the [releases section](https://github.com/DarthParametric/RT_Kibellah_Hairstyle_Switch/releases/latest) or [Nexus](https://www.nexusmods.com/warhammer40kroguetrader/mods/407) and extract it into:
 
 `%userprofile%\AppData\LocalLow\Owlcat Games\Warhammer 40000 Rogue Trader\Modifications\`
 

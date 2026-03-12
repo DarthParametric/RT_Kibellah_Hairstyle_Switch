@@ -19,7 +19,7 @@ MonoBehaviour:
     Description: Adds an option to swap the bowl cut for something less terrible
     Author: DarthParametric
     Repository: https://github.com/DarthParametric/RT_Kibellah_Hairstyle_Switch
-    HomePage: 
+    HomePage: https://www.nexusmods.com/warhammer40kroguetrader/mods/407
     Dependencies:
     - Name: MicroPatches
       Version: 1.20

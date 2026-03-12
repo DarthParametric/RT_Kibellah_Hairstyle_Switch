@@ -15,7 +15,7 @@ using UnityEngine;
 
 namespace DPKibblesHairSwitch
 {
-    public class DPKibblesHairSwitch
+    public static class DPKibblesHairSwitch
     {
 		internal static LogChannel Logger;
 		internal static OwlcatModification DPMod;
